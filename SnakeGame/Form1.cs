@@ -208,7 +208,7 @@ namespace SnakeGame
                     Bonus();
                 }
 
-                this.Text = "Snake - Score: " + snakeLength;
+                this.Text = "Snake - Score: " + (snakeLength - 3);
             }
 
             // Draw the head
